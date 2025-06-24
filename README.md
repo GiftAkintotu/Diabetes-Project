@@ -32,14 +32,44 @@ This project is trained on the **Pima Indians Diabetes Dataset** containing feat
 
 You can obtain the dataset from [UCI Machine Learning Repository](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?select=diabetes.csv).
 
-##Feature Selection Technique
+## Feature Selection Technique
 - We can use correlation matrix to pick the most important feature
 - Correlation Matrix measure the linear relationship between the target and the feature
 - Helps visualize which features are strongly correlated with outcome
+  (https://github.com/GiftAkintotu/Diabetes-Project/blob/main/correlation%20matrix.png)
 
-  ## Model Development
+## Model Development
 1. Preprocessing: Features were scaled using StandardScaler.
 2. Model Training: A LogisticRegression model was trained and saved with joblib.
 3. Evaluation:
    - Accuracy: ~80%
    - Confusion Matrix and metrics were calculated.
+
+## Streamlit Application
+Run the `Diabetes_ui.py` file to launch a local web app:
+```bash
+streamlit run Diabetes_ui.py
+You will see:
+Input fields for Glucose, BMI, Age, Pregnancies.
+A "Prediction" button that returns:
+Diabetic or Not Diabetic
+Prediction confidence (probability score)
+
+## Installation & Usage
+- git clone https://github.com/your-username/diabetes-prediction-app.git
+- cd diabetes-prediction-app
+- pip install -r requirements.txt
+- streamlit run Diabetes_ui.py
+
+## **Project Structure**
+- ├── diabetes.data.ipynb         # Notebook for EDA, Model Training & Evaluation
+- ├── Diabetes_ui.py        # Streamlit UI for making predictions
+- ├── new_diabetes_model.pkl    # Saved trained model
+- ├── new_scaler.pkl            # Saved scaler for preprocessing
+- ├── requirements.txt          # Dependencies
+- └── README.md
+
+## Contact
+Feel free to reach out:
+- GitHub: [https://github.com/Owaboye](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
+- LinkedIn: [Gift Akintotu](https://www.linkedin.com/in/gift-akintotu-38b38b220/)

@@ -56,7 +56,7 @@ Diabetic or Not Diabetic
 Prediction confidence (probability score)
 
 ## Installation & Usage
-- git clone https://github.com/your-username/diabetes-prediction-app.git
+- git clone https://github.com/GiftAkintotu/Diabetes-Project.git
 - cd diabetes-prediction-app
 - pip install -r requirements.txt
 - streamlit run Diabetes_ui.py

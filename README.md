@@ -71,5 +71,5 @@ Prediction confidence (probability score)
 
 ## Contact
 Feel free to reach out:
-- GitHub: [https://github.com/Owaboye](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
+- GitHub: [https://github.com/GiftAkintotu][(https://github.com/GiftAkintotu/Diabetes-Project)]
 - LinkedIn: [Gift Akintotu](https://www.linkedin.com/in/gift-akintotu-38b38b220/)
